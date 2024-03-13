@@ -130,12 +130,7 @@ a:focus-visible {
 		'works works works'
 		'content content content'
 		'title title title'
-		'links links links'
-		'sponsor sponsor sponsor';
-}
-
-.frame #cdawrap {
-  justify-self: start;
+		'links links links';
 }
 
 .frame a {
@@ -389,11 +384,7 @@ a:focus-visible {
 		'tagline content content content content'
 		'contact content content content content'
 		'works content content content content'
-		'title title links links sponsor';
-	}
-	.frame #cdawrap, {
-		justify-self: end;
-		align-self: end;
+		'title title links links links';
 	}
 	.frame__contact {
 		padding-top: 3rem;
