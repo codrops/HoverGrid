@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Grid Item Reveal Animation on Hover | Codrops</title>
+		<meta name="description" content="A grid item reveal animation on hover inspired by Metalab" />
+		<meta name="keywords" content="grid hover animation, gsap, hover effect grid, metalab hover" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";</script>
+		<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<div class="frame__title">
+					<h1><a href="https://tympanus.net/codrops/demos/?tag=hover">#Hover</a> <a href="https://tympanus.net/codrops/demos/?tag=grid">#Grid</a> Animations</h1>
+					<span>Want animations like these? <a href="mailto:contact@codrops.com">Hire us</a></span>
+				</div>
+				<nav class="frame__works">
+					<span>Recent works</span>
+					<a href="#content-1">Herex Aether</a>
+					<a href="#content-2">Cosmic Silence</a>
+					<a href="#content-3">Mystic Trails</a>
+					<a href="#content-4">Metamorph</a>
+					<a href="#content-5">Prismatica</a>
+				</nav>
+				<div class="frame__tagline">Blending artistry with technology, we transform visionary ideas into tangible, captivating realities that inspire and connect.</div>
+				<div class="frame__site">Grafixo</div>
+				<div class="frame__year">2024</div>
+				<div class="frame__contact"><a>Get in touch &nearr;</a></div>
+				<div class="frame__menu"></div>
+				<div class="frame__links">
+					<a class="frame__back" href="https://tympanus.net/codrops/?p=76613">Article</a>
+					<a class="frame__archive" href="https://tympanus.net/codrops/demos/">All demos</a>
+					<a class="frame__github" href="https://github/codrops/HoverGrid/">GitHub</a>
+				</div>
+				<h2 class="frame__title-main"><span>Studio</span> <span>Grafixo</span></h2>
+				<div class="frame__content">
+					<div class="content" id="content-1" data-bg="bg-1">
+						<h2 class="content__title">Herex Aether</h2>
+						<div class="content__img pos-1" data-dir="right"><div class="content__img-inner" style="background-image:url(media/1.jpg)"></div></div>
+						<div class="content__img pos-2" data-dir="left"><div class="content__img-inner" style="background-image:url(media/2.jpg)"></div></div>
+						<div class="content__img pos-3" data-dir="top"><div class="content__img-inner" style="background-image:url(media/3.jpg)"></div></div>
+					</div>
+					<div class="content" id="content-2" data-bg="bg-2">
+						<h2 class="content__title">Cosmic Silence</h2>
+						<div class="content__img pos-4" data-dir="bottom"><div class="content__img-inner" style="background-image:url(media/4.jpg)"></div></div>
+						<div class="content__img pos-5" data-dir="right"><div class="content__img-inner" style="background-image:url(media/5.jpg)"></div></div>
+						<div class="content__img pos-6" data-dir="right"><div class="content__img-inner" style="background-image:url(media/6.jpg)"></div></div>
+					</div>
+					<div class="content" id="content-3" data-bg="bg-3">
+						<h2 class="content__title">Mystic Trails</h2>
+						<div class="content__img pos-7" data-dir="right"><div class="content__img-inner" style="background-image:url(media/7.jpg)"></div></div>
+						<div class="content__img pos-8" data-dir="bottom"><div class="content__img-inner" style="background-image:url(media/8.jpg)"></div></div>
+						<div class="content__img pos-9" data-dir="left"><div class="content__img-inner" style="background-image:url(media/9.jpg)"></div></div>
+					</div>
+					<div class="content" id="content-4" data-bg="bg-4">
+						<h2 class="content__title">Metamorph</h2>
+						<div class="content__img pos-10" data-dir="left"><div class="content__img-inner" style="background-image:url(media/10.jpg)"></div></div>
+						<div class="content__img pos-11" data-dir="right"><div class="content__img-inner" style="background-image:url(media/11.jpg)"></div></div>
+						<div class="content__img pos-12" data-dir="right"><div class="content__img-inner" style="background-image:url(media/12.jpg)"></div></div>
+					</div>
+					<div class="content" id="content-5" data-bg="bg-5">
+						<h2 class="content__title">Prismatica</h2>
+						<div class="content__img pos-13" data-dir="right"><div class="content__img-inner" style="background-image:url(media/13.jpg)"></div></div>
+						<div class="content__img pos-14" data-dir="bottom"><div class="content__img-inner" style="background-image:url(media/14.jpg)"></div></div>
+						<div class="content__img pos-15" data-dir="right"><div class="content__img-inner" style="background-image:url(media/15.jpg)"></div></div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="background">
+			<div id="bg-1" class="background__image" style="background-image:url(media/beige1.jpg)"></div>
+			<div id="bg-2" class="background__image" style="background-image:url(media/red1.jpg)"></div>
+			<div id="bg-3" class="background__image" style="background-image:url(media/pink.jpg)"></div>
+			<div id="bg-4" class="background__image" style="background-image:url(media/beige2.jpg)"></div>
+			<div id="bg-5" class="background__image" style="background-image:url(media/red2.jpg)"></div>
+			<video autoplay muted loop class="background__video">
+				<source src="media/bg-video.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+    	<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+		<script src="js/gsap.min.js"></script>
+		<!-- Image preloader -->
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script type="module" src="js/index.js"></script>
+	</body>
+</html>
