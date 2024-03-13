@@ -33,7 +33,7 @@ body {
 .js .loading::after {
 	content: '';
 	position: fixed;
-	z-index: 1000;
+	z-index: 10000;
 }
 
 .js .loading::before {
